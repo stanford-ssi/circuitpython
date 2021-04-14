@@ -150,9 +150,11 @@ version = release = final_version
 # directories to ignore when looking for source files.
 exclude_patterns = ["**/build*",
                     ".git",
+                    ".github",
                     ".env",
                     ".venv",
                     ".direnv",
+                    "data",
                     "docs/autoapi",
                     "docs/README.md",
                     "drivers",
@@ -282,7 +284,7 @@ html_static_path = ['docs/static']
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ["docs/robots.txt"]
+#html_extra_path = []
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
